@@ -32,5 +32,7 @@ Frontend → API Express → Services → Repositories → PostgreSQL
 - **Banco (`database/`):** histórico de alterações SQL e recursos
   administrativos, separado do backend.
 
-O estado atual contém apenas a estrutura inicial. Endpoints, regras de negócio
-e esquema de banco ainda não foram definidos.
+O frontend contém um protótipo interativo com dados fictícios apenas para
+demonstrar os principais fluxos. Suas ações não fazem requisições de rede nem
+persistem alterações. Endpoints, regras de negócio, autenticação e esquema de
+banco ainda deverão ser definidos antes de conectar os componentes ao backend.
